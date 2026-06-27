@@ -1,8 +1,17 @@
 # Unreal Engine 本地生成目录
-Binaries/
 DerivedDataCache/
 Intermediate/
 Saved/
+
+# 提交预编译编辑器二进制，方便非程序成员直接打开工程。
+# 注意：这些二进制只适用于对应 Unreal Engine 版本和平台。
+/Binaries/Win64/*
+!/Binaries/Win64/UnrealEditor-FPSDemo.dll
+!/Binaries/Win64/UnrealEditor.modules
+/Plugins/*/Binaries/**
+!/Plugins/McpAutomationBridge/Binaries/
+!/Plugins/McpAutomationBridge/Binaries/**
+/Plugins/*/Intermediate/
 
 # IDE 和工程文件缓存
 .vs/
