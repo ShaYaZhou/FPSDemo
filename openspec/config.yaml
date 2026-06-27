@@ -1,0 +1,20 @@
+schema: spec-driven
+
+context: |
+  这是一个公版 Unreal Engine 5.7 C++ 工程，仓库名为 FPSDemo。
+  C++ 层当前只提供最小 FPSDemo Runtime 模块，主要玩法由 Content/FPS_Controller 下的蓝图资产驱动。
+  默认地图为 /Game/FPS_Controller/Maps/Warehouse.Warehouse。
+  默认 GameInstance 为 BP_GameInstance，默认 GameMode 为 BP_GM。
+  项目包含 FPS 角色、武器、附件、动画、UI、输入、地图、物理材质和 Niagara/美术特效资源。
+  工程启用了 AnimationWarping 和 MotionWarping，配置中保留 Steam OnlineSubsystem 相关设置。
+  Unreal 二进制资产使用 Git LFS 管理，本地生成目录不应提交。
+
+rules:
+  proposal:
+    - 使用中文说明背景、范围、非目标和验证方式。
+    - 变更范围必须能直接追溯到用户需求，避免顺手重构。
+  tasks:
+    - 每项任务写清楚可验证结果。
+    - 涉及资产路径时注明是否需要通过 Unreal Editor 内容浏览器操作。
+  design:
+    - 优先描述现有蓝图和配置如何配合工作，再提出新增 C++ 扩展点。

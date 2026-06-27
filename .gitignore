@@ -1,0 +1,28 @@
+# Unreal Engine 本地生成目录
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# IDE 和工程文件缓存
+.vs/
+.vscode/
+.idea/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+*.opensdf
+*.sdf
+
+# 编译、日志和临时文件
+*.log
+*.tmp
+*.temp
+
+# 本地资源来源说明和网页快捷方式，不作为工程资产提交
+资源安装教程.txt
+*.url
