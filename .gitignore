@@ -8,6 +8,8 @@ Saved/
 /Binaries/Win64/*
 !/Binaries/Win64/UnrealEditor-FPSDemo.dll
 !/Binaries/Win64/UnrealEditor.modules
+!/Binaries/Win64/FPSDemoEditor.target
+!/Binaries/Win64/UnrealEditor-FPSDemo.target
 /Plugins/*/Binaries/**
 !/Plugins/McpAutomationBridge/Binaries/
 !/Plugins/McpAutomationBridge/Binaries/**
